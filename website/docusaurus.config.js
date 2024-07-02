@@ -7,16 +7,16 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Obsidiosaurus',
-  tagline: 'Obsidian.md + Docusaurus = ❤ ',
+  title: 'JobDone Knowledge Base',
+  tagline: 'JobDone von A-Z',
   favicon: 'img/favicon.ico',
 
 
-  url: 'https://cimsta.github.io',
+  url: 'https://kb.jobdone.app',
   baseUrl: '/',
 
-  organizationName: 'cimsta', 
-  projectName: 'obsidiosaurus', 
+  organizationName: 'jobdone', 
+  projectName: 'jobdone-knowledge-base', 
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -61,59 +61,59 @@ const config = {
     ({
       image: 'img/obsidiosaurus-social-card.jpg',
       navbar: {
-        title: 'Obsidiosaurus',
+        title: 'Home',
         logo: {
           alt: 'logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'main',
-            position: 'left',
-            label: 'Main',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'sidebar2',
-            position: 'left',
-            label: 'Sidebar 2*',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'main',
+          //   position: 'left',
+          //   label: 'Main',
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'sidebar2',
+          //   position: 'left',
+          //   label: 'Sidebar 2*',
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'knowledgeBase',
             position: 'left',
             label: 'Knowledge Base',
           },
-          {to: '/blog', label: 'Blog*', position: 'left'},
+          // {to: '/blog', label: 'Blog*', position: 'left'},
           {to: '/release_notes', label: 'Release Notes', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
           },
-          {
-            href: 'https://github.com/CIMSTA/obsidiosaurus',
-            position: 'right',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
-          },
-          {
-            href: 'https://discord.gg/SSGK5tuqJh',
-            position: 'right',
-            className: 'header-discord-link',
-            'aria-label': 'Discord Community',
-          },
-          {
-            href: 'https://cimsta.com',
-            position: 'right',
-            className: 'header-cimsta-link',
-            'aria-label': 'CIMSTA.com',
-          },
+          // {
+          //   href: 'https://github.com/CIMSTA/obsidiosaurus',
+          //   position: 'right',
+          //   className: 'header-github-link',
+          //   'aria-label': 'GitHub repository',
+          // },
+          // {
+          //   href: 'https://discord.gg/SSGK5tuqJh',
+          //   position: 'right',
+          //   className: 'header-discord-link',
+          //   'aria-label': 'Discord Community',
+          // },
+          // {
+          //   href: 'https://cimsta.com',
+          //   position: 'right',
+          //   className: 'header-cimsta-link',
+          //   'aria-label': 'CIMSTA.com',
+          // },
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} CIMSTA. CC-BY / MIT`,
+        copyright: `Copyright © ${new Date().getFullYear()} JobDone AG`,
       },
       prism: {
         theme: lightCodeTheme,

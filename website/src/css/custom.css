@@ -1,6 +1,6 @@
 
 :root {
-  --ifm-color-primary: #6d54bc;
+  --ifm-color-primary: #206ae9;
   --ifm-color-primary-dark: #5f45b0;
   --ifm-color-primary-darker: #5941a6;
   --ifm-color-primary-darkest: #4a3689;
@@ -8,11 +8,11 @@
   --ifm-color-primary-lighter: #8671c7;
   --ifm-color-primary-lightest: #9f8fd3;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-heading-color: #6d54bc;
+  --ifm-heading-color: #206ae9;
   --ifm-background-color: #FFFFFF !important;
   --ifm-background-surface-color: #F0F0F0 !important;
   --ifm-menu-color-background-active: rgba(109, 84, 188, 0.15);
-  --ifm-menu-color-active: #6d54bc;
+  --ifm-menu-color-active: #206ae9;
   --text-color: #1c1e26;
 
   --ifm-font-family-base: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

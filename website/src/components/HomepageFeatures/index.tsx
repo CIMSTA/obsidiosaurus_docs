@@ -4,48 +4,39 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_obsidiosaurus_mountain.svg').default,
+    title: 'Einfach zu benutzen',
     description: (
       <>
-      Obsidiosaurus was designed with the goal of seamlessly combining the power of Obsidian with the the UI & UX of Docusaurus.
+        Die JobDone Plattform wurde mit dem Ziel entwickelt, die Dienstplanung, Zeiterfassung und Kommunikation in einer intuitiven und benutzerfreundlichen Oberfläche zu vereinen.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_obsidiosaurus_tree.svg').default,
+    title: 'Konzentriere dich auf das Wesentliche',
     description: (
       <>
-      Once set up, Obsidiosaurus allows you to concentrate on creating valuable content. 
-      Take advantage of rich markdown features, including callouts/admonitions, quotes, and more.
+        Mit der JobDone Plattform kannst du dich auf die wirklich wichtigen Aufgaben konzentrieren. Nutze die umfangreichen Funktionen zur Zeiterfassung und Planung, um deine Effizienz zu steigern.
       </>
     ),
   },
   {
-    title: 'Cutting Edge',
-    Svg: require('@site/static/img/undraw_obsidiosaurus_react.svg').default,
+    title: 'Modern und Innovativ',
     description: (
       <>
-      Obsidiosaurus brings together the cutting-edge static website builder for documentation sites, Docusaurus, with the exceptional file-based markdown editor, Obsidian. 
-      Experience the best of both worlds.
+        Die JobDone Plattform kombiniert moderne Technologien für eine nahtlose Benutzererfahrung. Erlebe die Vorteile einer hochmodernen Plattform für Dienstplanung und Kommunikation.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
