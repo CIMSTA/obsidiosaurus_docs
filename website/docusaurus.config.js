@@ -23,7 +23,7 @@ const config = {
 
   i18n: {
     defaultLocale: 'de',
-    locales: ['en', 'de'],
+    locales: ['de', 'en'],
   },
 
   presets: [
@@ -78,6 +78,12 @@ const config = {
             sidebarId: 'sidebar2',
             position: 'left',
             label: 'Sidebar 2*',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'knowledgeBase',
+            position: 'left',
+            label: 'Knowledge Base',
           },
           {to: '/blog', label: 'Blog*', position: 'left'},
           {to: '/release_notes', label: 'Release Notes', position: 'left'},

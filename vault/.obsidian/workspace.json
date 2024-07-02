@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/knowledgeBase/1. Einen Schichtplan erstellen/1. Schicht erstellen+/create_shift__de.md",
+                "file": "docs/knowledgeBase/1. Einen Schichtplan erstellen/5. Schichten veröffentlichen+/publish_shifts__de.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 300.5
   },
   "right": {
     "id": "e942b59ba0a3c920",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/knowledgeBase/1. Einen Schichtplan erstellen/1. Schicht erstellen+/create_shift__de.md",
+                "file": "docs/knowledgeBase/1. Einen Schichtplan erstellen/5. Schichten veröffentlichen+/publish_shifts__de.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/knowledgeBase/1. Einen Schichtplan erstellen/1. Schicht erstellen+/create_shift__de.md",
+                "file": "docs/knowledgeBase/1. Einen Schichtplan erstellen/5. Schichten veröffentlichen+/publish_shifts__de.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/knowledgeBase/1. Einen Schichtplan erstellen/1. Schicht erstellen+/create_shift__de.md"
+                "file": "docs/knowledgeBase/1. Einen Schichtplan erstellen/5. Schichten veröffentlichen+/publish_shifts__de.md"
               }
             }
           }
@@ -158,12 +158,14 @@
   },
   "active": "f2ea0aa3830000e2",
   "lastOpenFiles": [
-    "docs/main/1. Get started/0. quick_start+/quick_start__en.md",
-    "docs/knowledgeBase/1. Einen Schichtplan erstellen/2. Flash Modus - Schicht Vorlagen/flash_mode__de.md",
-    "docs/knowledgeBase/1. Einen Schichtplan erstellen/4. Abwesenheiten/absences__de.md",
-    "docs/knowledgeBase/1. Einen Schichtplan erstellen/5. Schichten veröffentlichen/publish_shifts__de.md",
-    "docs/knowledgeBase/1. Einen Schichtplan erstellen/3. Zeiträume kopieren/copy_schedule__de.md",
+    "docs/knowledgeBase/1. Einen Schichtplan erstellen/introduction__de.md",
+    "docs/knowledgeBase/1. Einen Schichtplan erstellen/introduction__en.md",
     "docs/knowledgeBase/1. Einen Schichtplan erstellen/1. Schicht erstellen+/create_shift__de.md",
+    "docs/main/1. Get started/0. quick_start+/quick_start__en.md",
+    "docs/knowledgeBase/1. Einen Schichtplan erstellen/2. Flash Modus - Schicht Vorlagen+/flash_mode__de.md",
+    "docs/knowledgeBase/1. Einen Schichtplan erstellen/4. Abwesenheiten+/absences__de.md",
+    "docs/knowledgeBase/1. Einen Schichtplan erstellen/5. Schichten veröffentlichen+/publish_shifts__de.md",
+    "docs/knowledgeBase/1. Einen Schichtplan erstellen/3. Zeiträume kopieren+/copy_schedule__de.md",
     "docs/main/0. Introduction+/introduction__de.md",
     "assets/Drawing _0.excalidraw.light.svg",
     "assets/unpublished_shifts__de.png",
@@ -175,11 +177,10 @@
     "assets/save_and_publish__de.png",
     "assets/published_shifts__de.png",
     "assets/publish_user_shifts__de.png",
-    "docs/knowledgeBase/1. Einen Schichtplan erstellen/introduction__de.md",
-    "docs/knowledgeBase/1. Einen Schichtplan erstellen/5. Schichten veröffentlichen",
-    "docs/knowledgeBase/1. Einen Schichtplan erstellen/4. Abwesenheiten",
-    "docs/knowledgeBase/1. Einen Schichtplan erstellen/3. Zeiträume kopieren",
-    "docs/knowledgeBase/1. Einen Schichtplan erstellen/2. Flash Modus - Schicht Vorlagen",
+    "docs/knowledgeBase/1. Einen Schichtplan erstellen/5. Schichten veröffentlichen+",
+    "docs/knowledgeBase/1. Einen Schichtplan erstellen/4. Abwesenheiten+",
+    "docs/knowledgeBase/1. Einen Schichtplan erstellen/3. Zeiträume kopieren+",
+    "docs/knowledgeBase/1. Einen Schichtplan erstellen/2. Flash Modus - Schicht Vorlagen+",
     "docs/knowledgeBase/1. Einen Schichtplan erstellen/1. Schicht erstellen+",
     "docs/Knowledge Base/1. Einen Schichtplan erstellen/absences__de.md",
     "docs/Knowledge Base/1. Einen Schichtplan erstellen/publish_shifts__de.md",
@@ -188,7 +189,6 @@
     "docs/Knowledge Base/1. Einen Schichtplan erstellen/copy_shedule.md",
     "docs/Knowledge Base/1. Einen Schichtplan erstellen/flash_mode__de.md",
     "docs/Knowledge Base/1. Einen Schichtplan erstellen/create_shift__de.md",
-    "docs/knowledgeBase/1. Einen Schichtplan erstellen/introduction__en.md",
     "docs/Knowledge Base/1. Einen Schichtplan erstellen/5. Schichten veröffentlichen.md",
     "docs/Knowledge Base/1. Einen Schichtplan erstellen/4. Abwesenheiten.md",
     "docs/Knowledge Base/1. Einen Schichtplan erstellen/3. Zeiträume kopieren.md",
